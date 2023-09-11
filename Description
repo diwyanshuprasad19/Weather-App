@@ -1,0 +1,12 @@
+Live Website - https://64fb442e07d12315bf244e34--superb-pastelito-6ce0ef.netlify.app/
+
+Description:The weather app's tech stack comprises React as the core frontend library, offering a dynamic and interactive user interface. It features a button for fetching live location weather data and a city search 
+option. For temperature, the app provides readings in both Celsius and Fahrenheit, along with minimum and maximum temperatures for the selected city. Additionally, it displays humidity, air pressure, 
+visibility, and wind speed, ensuring users have comprehensive weather information at their fingertips.
+
+To enhance user experience, the app incorporates a live clock displaying the current time, a date component, and prominently showcases the city name and country, making it easy for users to identify the location 
+being queried. Furthermore, the weather description offers succinct insights into the current weather conditions. This well-rounded tech stack, combining React with API integrations and various 
+UI components, ensures an informative and visually pleasing weather app.
+
+
+Technology Stack: React, Responsive, Openweather api
