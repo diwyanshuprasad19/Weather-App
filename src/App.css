@@ -1,0 +1,252 @@
+.bodyapp {
+  width: 35%;
+   margin:  1rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
+  border-radius: 2rem 2rem 2rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.bodyapp h1 {
+  color: #1a64d6;
+  font-size: 1.2rem;
+  margin-bottom: .25em;
+}
+
+.bodyapp  h2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+.bodyapp  h3 {
+  font-size: 1rem;
+}
+
+.bodyapp  ul {
+  display: block;
+  margin:1rem;
+  padding: 0;
+}
+
+.bodyapp  li {
+  list-style: none;
+  padding: 0.625rem;
+  max-width: 100%;
+  margin: 0 auto;
+  transition: all 200ms ease-in-out;
+}
+
+
+.bodyapp  p {
+  font-family: monospace;
+  font-size: 1rem;
+  opacity: .7;
+}
+
+
+
+.bodyapp  button {
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  transition: all 300ms ease-in-out;
+margin: 0 0.5rem;
+}
+
+.bodyapp  button:hover {
+transform: scale(1.2);
+}
+
+
+.bodyapp .search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bodyapp .icon-target {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 8px; /* Adjust spacing as needed */
+}
+
+.bodyapp .search-input {
+  margin: 0.5rem 0.5rem;
+  flex-grow: 1; 
+  padding: 0.5rem;
+  border: none; /* Remove the default border */
+  border-bottom: 1px solid #ccc; /* Add a bottom border */
+  outline: none; /* Remove the outline on focus (optional) */
+  margin: 0.5rem 1rem;
+}
+
+.bodyapp  .icon-search {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 8px; /* Adjust spacing as needed */
+  
+}
+.bodyapp  .icon-search:hover {
+transform: scale(1.2);
+  
+}
+
+
+.bodyapp  .icon-target:hover {
+  transform: scale(1.2);
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  
+  .bodyapp{
+ width: 50%;
+  }
+
+  .bodyapp h1 {
+
+    font-size: 1.5rem;
+    margin-bottom: .25em;
+  }
+  
+  .bodyapp  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .bodyapp  h3 {
+    font-size: 0.8rem;
+  }
+  
+  .bodyapp  ul {
+    margin:0.8rem;
+
+  }
+  
+  .bodyapp  p {
+    font-size: 0.8rem;
+
+  }
+  
+  .bodyapp  button {
+    font-size: 0.8rem;
+
+  
+  }
+
+
+}
+
+@media (max-width: 700px) {
+  .bodyapp{
+ width: 70%;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+  .bodyapp{
+ width: 80%;
+  }
+
+  .bodyapp h1 {
+    font-size: 1.5rem;
+  }
+  
+  .bodyapp  h2 {
+    font-size: 1.2rem;
+
+  }
+  
+  .bodyapp  h3 {
+    font-size: 1rem;
+  }
+  
+  .bodyapp  ul {
+    margin:1rem;
+
+  }
+  
+  .bodyapp  li {
+
+    padding: 0.7rem;
+  }
+  
+
+  
+  .bodyapp  p {
+    font-size: 0.8rem;
+  }
+  
+  .bodyapp  button {
+
+    font-size: 0.6rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 1.2rem;
+  
+  }
+  
+
+
+
+}
+
+.error-message {
+  text-align: center; /* Horizontally center the text */
+  color: red; /* Set the text color to red */
+}
+
+
+.clock-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.timeh{
+  font-size: 1rem;
+}
+.clock-time {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+@media (max-width: 400px) {
+  .bodyapp h1 {
+    font-size: 1rem;
+  }
+  
+  .bodyapp  h2 {
+    font-size: 0.8rem;
+
+  }
+}

@@ -1,0 +1,23 @@
+
+.circular-image {
+  width: 5rem; /* Adjust the width and height to your preference */
+  height: 5rem;
+  border-radius: 50%; /* Creates a circular shape */
+  overflow: hidden; /* Hides any content outside the circle */
+  margin: 0 auto; /* Centers the circular container */
+  background-color: #f0f0f0; /* Background color for the circular container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.circular-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Ensures the image fills the circular container */
+}
+
+.temperature-image-container p {
+  margin-top: 10px;
+}

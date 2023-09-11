@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+  }
+  
+  .grid-container  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid-container  .grid-heading {
+    font-size: 1rem;
+  }
+  
+  .grid-container   .grid-content {
+    font-size: 0.85rem;
+  }
